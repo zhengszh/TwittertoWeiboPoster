@@ -20,7 +20,7 @@ def convertSinaLink(link):
 	html_parser = HTMLParser.HTMLParser()
 	url = "http://api.t.sina.com.cn/short_url/shorten.json"
 	data = {
-		"source" : "1681459862",
+		"source" : "Your App Key",
 		"url_long" : link
 	}
 	data = urllib.urlencode(data)

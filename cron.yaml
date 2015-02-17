@@ -1,0 +1,4 @@
+cron:
+- description: techmeme
+  url: /techmeme
+  schedule: every 8 minutes
